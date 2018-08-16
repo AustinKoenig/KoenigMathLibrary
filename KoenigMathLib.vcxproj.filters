@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="KML">
+      <UniqueIdentifier>{4700d572-52e8-400b-b5fb-5b3908dd5b13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="KML\Objects">
+      <UniqueIdentifier>{a7dee3f1-6475-4891-a040-9526a164481a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="KML\Unit Tests">
+      <UniqueIdentifier>{94caf122-0821-40fe-b5bd-5650c918aac3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="KML.h">
+      <Filter>KML</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector.h">
+      <Filter>KML\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix.h">
+      <Filter>KML\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="ComplexNumber.h">
+      <Filter>KML\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="KMLTests.h">
+      <Filter>KML\Unit Tests</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="KML.cpp">
+      <Filter>KML</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector.cpp">
+      <Filter>KML\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Matrix.cpp">
+      <Filter>KML\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="ComplexNumber.cpp">
+      <Filter>KML\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="KMLTests.cpp">
+      <Filter>KML\Unit Tests</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
